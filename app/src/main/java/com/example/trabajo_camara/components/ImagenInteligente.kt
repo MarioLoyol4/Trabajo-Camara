@@ -18,7 +18,7 @@ fun ImagenInteligente(
     modifier: Modifier = Modifier,
     uri: Uri?
 ){
-    if (uri != null){
+    if (uri != null ){
         AsyncImage(
             model = uri,
             contentDescription = "Imagen de perfil seleccionada",
